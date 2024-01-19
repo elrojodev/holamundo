@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
-import com.example.yourproject.dao.ClientRepository;
-import com.example.yourproject.model.Client;
+import com.example.demo.dao.ClientRepository;
+import com.example.demo.model.Client;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
