@@ -18,7 +18,7 @@ public class ClientController {
     }
 
     @GetMapping("/{id}")
-    public Optional<Client> getClientById(@PathVariable Long id) {
+    public Optional<Client> getClientById(@PathVariable final Long id) {
         return clientService.getClientById(id);
     }
 
